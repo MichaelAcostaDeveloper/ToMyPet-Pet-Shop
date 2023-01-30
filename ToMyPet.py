@@ -1,3 +1,9 @@
+"""
+En este proyecto tenemos tres ramas en local main, master y dev.
+Cualquier cambio o actualizacion a nivel de codigo se lo debe hacer en la rama dev.
+Los cambios se deben mergear a la rama master.
+Posteriormente se deden mergear a la rama main.
+Cuando los cambios esten en la rama local main, usar git push para pasarlo a remoto en github."""
 #Definicion del metodo creationPassword()
 '''Este metodo permite crear password con 5 caracteres'''
 def creationPassword():#este metodo retorna el password validado
